@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchAddProducts {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.searchProducts {
+    width: 180px;
+    height: 42px;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 10px;
+}
+
+input {
+    width: 90px;
+    background: none;
+    border: 0;
+    outline: solid rgb(255, 255, 255) 0 ;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.301);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.searchProducts:hover {
+    background-color: rgba(221, 215, 215, 0.763);
+}
+
+input:hover::placeholder {
+    color: rgba(0, 0, 0, 0.521);
+}
+  
+  
